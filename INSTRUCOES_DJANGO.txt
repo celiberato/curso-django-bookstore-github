@@ -47,3 +47,16 @@ poetry run python manage.py startapp api
 poetry run python manage.py migrate
 
 poetry run python manage.py runserver
+
+-------
+poetry add django_extensions
+
+poetry run python manage.py show_urls
+-------
+
+export DJANGO_SETTINGS_MODULE="bookstore.settings"
+echo $DJANGO_SETTINGS_MODULE
+
+poetry run python manage.py test --settings bookstore.settings
+
+-------
