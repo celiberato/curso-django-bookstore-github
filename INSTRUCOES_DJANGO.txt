@@ -1,20 +1,3 @@
-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
-
-ssh-keygen -t ed25519 -C "celiberato@gmail.com"
-
-
-python manage.py shell
-
-winpty python manage.py createsuperuser
-
-super user:
-django/django
-celiberato@gmail.com
-
-
-developer/dev123456
-
-
 pip install pytest-django
 
 pip install Faker
@@ -44,7 +27,7 @@ python manage.py runserver
 
 pip install uvicorn
 
-uvicorn --reload asyncviews.asgi:application (SOBE APLICA«√O)
+uvicorn --reload asyncviews.asgi:application (SOBE APLICA√á√ÉO)
 
 pip install httpx
 
