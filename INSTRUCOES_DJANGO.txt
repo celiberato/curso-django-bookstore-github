@@ -1,0 +1,66 @@
+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
+
+ssh-keygen -t ed25519 -C "celiberato@gmail.com"
+
+
+python manage.py shell
+
+winpty python manage.py createsuperuser
+
+super user:
+django/django
+celiberato@gmail.com
+
+
+developer/dev123456
+
+
+pip install pytest-django
+
+pip install Faker
+
+pip install factory_boy
+
+pip install -U pytest
+
+localhost:8000/admin
+
+
+python manage.py runserver
+
+python -m venv env
+
+source env/bin/activate
+
+----- INICIO PROJETO-----
+
+django-admin startproject PROJETO . 
+
+pip install django
+
+python manage.py migrate
+
+python manage.py runserver
+
+pip install uvicorn
+
+uvicorn --reload asyncviews.asgi:application (SOBE APLICAÇÃO)
+
+pip install httpx
+
+------ install poetry: --------
+https://python-poetry.org/docs/
+
+pip install black
+
+poetry init (install pytest e factory-boy)
+
+poetry add django
+
+poetry run django-admin startproject bookstore .
+
+poetry run python manage.py startapp api
+
+poetry run python manage.py migrate
+
+poetry run python manage.py runserver
