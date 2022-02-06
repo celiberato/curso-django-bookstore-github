@@ -25,7 +25,9 @@ class TestOrderViewSet(APITestCase):
         response = self.client.get(
             reverse("order-list", kwargs={"version": "v1"}))
 
-        print(response)
+        retorno = json.loads(response)
+
+        print(f'---------------------{retorno}-----------------------------')
 
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
