@@ -11,7 +11,6 @@ from product.models import Product
 
 
 class TestOrderViewSet(APITestCase):
-
     client = APIClient()
 
     def setUp(self):
@@ -25,13 +24,10 @@ class TestOrderViewSet(APITestCase):
         response = self.client.get(
             reverse("order-list", kwargs={"version": "v1"}))
 
-        retorno = json.loads(response)
-
-        print(f'---------------------{retorno}-----------------------------')
-
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
         order_data = json.loads(response.content)
+
         self.assertEqual(
             order_data["results"][0]["product"][0]["title"], self.product.title
         )
