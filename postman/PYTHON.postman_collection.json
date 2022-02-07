@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "2d6ee6e2-b462-43ef-ab75-8c72a286c902",
+		"name": "PYTHON",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/bookstore/v1/product",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authentication",
+						"value": "Token 6151cda298b2733169d41c0156b776275f047b26",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/bookstore/v1/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"bookstore",
+						"v1",
+						"product"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
