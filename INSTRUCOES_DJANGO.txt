@@ -60,3 +60,7 @@ echo $DJANGO_SETTINGS_MODULE
 poetry run python manage.py test --settings bookstore.settings
 
 -------
+
+poetry run python manage.py shell_plus
+
+import pdb;  pdb.set_trace()
