@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-m22m8a71%)&rvd%#trb8r0=6+uims9+-jm6yet109x2f!q!=re
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '192.168.99.100',
+    '127.0.0.1',
+    'localhost',
+]
 
 
 # Application definition
@@ -141,4 +145,5 @@ REST_FRAMEWORK = {
 
 INTERVAL_IPS = [
     '127.0.0.1',
+    '192.168.99.100',
 ]
